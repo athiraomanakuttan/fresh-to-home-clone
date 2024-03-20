@@ -1,0 +1,43 @@
+@font-face {
+    font-family: myFont;
+    src: url("./fonts/orkney-light.woff");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+    font-family: myFont;
+    
+}
+
+ul,ol{
+    padding-left: 0 !important;
+}
+.header-contact{
+    width: 100%;
+    background-color:rgb(60, 128, 49) !important;
+    padding: 5px ;
+    color: #fff;
+    font-size: 12px;
+    height: 30px;
+}
+.container-fluid ul{
+    display: flex;
+}
+.container-fluid li{
+    padding: 2px 5px;
+}
+.header-left{
+    display: flex;
+    justify-content: start;
+}
+.header-right{
+    display: flex;
+    justify-content: end;
+}
+.location-menu{
+    margin-left: 3rem;
+}
