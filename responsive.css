@@ -3,4 +3,16 @@
         display:flex;
         flex-direction: column;
     }
+    .header-right button{
+        width: 16%;
+    }
+    
+}
+@media all  and (max-width:425px) {
+    .serch-bar input,.serch-bar button{
+        display: none;
+    }
+    .header-right button{
+        width: 40%;
+    }
 }

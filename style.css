@@ -11,10 +11,20 @@
     list-style: none;
     font-family: myFont;
     
+    
 }
 
 ul,ol{
     padding-left: 0 !important;
+}
+/* common settings end  */
+/* header part one starts  */
+header{
+    top: 0;
+    position: fixed; 
+    width: 100%;
+    z-index: 800;
+    background-color: #fff;
 }
 .header-contact{
     width: 100%;
@@ -40,4 +50,73 @@ ul,ol{
 }
 .location-menu{
     margin-left: 3rem;
+}
+/* header part Two starts  */
+
+.header-menu{
+    padding: 10px 20px;
+    display: flex;
+    max-height: 7rem;
+}
+.brand-logo{
+    width: 100px;
+}
+.serch-bar{
+    margin: auto 1rem;
+    position: relative;
+}
+.serch-bar input{
+    width: 456px;
+    height: 43px;
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid #d5bebe;
+    font-size: 14px;
+    padding: 10px;
+}
+.serch-bar-li{
+    margin: auto;
+}
+
+.serch-bar button{
+    position: absolute;
+    right: 2px;
+    width: 40px;
+    height: 94%;
+    border: none;
+    background: #fff;
+    top: 2px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgb(60, 128, 49);
+}
+.header-menu {
+   margin: auto;
+}
+
+.header-right button{
+    width: 10%;
+   /* margin-right: 0px; */
+   border: none;
+   margin: auto 0px;
+    background: #fff;
+}
+.header-right img{
+    width: 74%;
+}
+.cart-menu{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.cart-counter{
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    border-radius: 25px;
+    font-size: 13px;
+    padding: 4%;
 }
