@@ -13,7 +13,10 @@
     
     
 }
-
+hr{
+    color: rgb(247, 244, 244);
+    margin: 0 !important;
+}
 ul,ol{
     padding-left: 0 !important;
 }
@@ -92,6 +95,7 @@ header{
 }
 .header-menu {
    margin: auto;
+   border-bottom: 1px solid rgb(241, 237, 237);
 }
 
 .header-right button{
@@ -119,4 +123,24 @@ header{
     border-radius: 25px;
     font-size: 13px;
     padding: 4%;
+}
+/* Catogory section starts */
+.catogory {
+    padding-top: 12%;
+    color: black;
+}
+.catogory ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+.catogory a{
+    text-decoration: none;
+    color: #000;
+    padding: 20px;
+}
+.catogory a:hover{
+background-color: rgb(241, 237, 237);
 }
