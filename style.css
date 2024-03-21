@@ -208,6 +208,7 @@ color: #7755A2;
 
 }
 .flash-sale h2{
+  text-align: center;
   font-size: 22px;
     font-weight: 800 !important;
     line-height: 32px;
@@ -259,4 +260,18 @@ color: #7755A2;
     border: 1px solid #8b3737;
     color: #8b3737;
     font-size: 15px;
+  }
+  .flashs-sale-timer
+  {
+    background: linear-gradient(90deg, #f4b64d 0, #f72973 99.77%);
+    border-radius: 4px;
+    margin-left: 10px;
+    height: 32px;
+    line-height: 32px;
+    font-weight: 800;
+    font-size: 17px;
+    color: #fff;
+    width: 148px;
+    text-align: center;
+    padding: 0.5rem;
   }
