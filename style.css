@@ -262,6 +262,11 @@ color: #7755A2;
     color: #8b3737;
     font-size: 15px;
   }
+  .veg-icon{
+    border: 1px solid rgb(3, 102, 3) !important;
+    color: rgb(3, 102, 3) !important;
+    padding-top: 3px;
+  }
   .flashs-sale-timer
   {
     background: linear-gradient(90deg, #f4b64d 0, #f72973 99.77%);
@@ -282,7 +287,7 @@ color: #7755A2;
     margin: 1.3rem;
     padding: 2rem 0px;
   }
-  .shop-by-category h2{
+  .shop-by-category h2,.deal-of-day h2{
     font-size: 24px;
     font-weight: bold;
     line-height: 32px;
@@ -338,3 +343,99 @@ color: #7755A2;
   .shop-now-ctg i{
     font-size: 10px;
   }
+  /* -------------------- Deal of the day section -----------------  */
+.deal-of-day{
+  margin: 1.3rem;
+  padding: 1.5rem 0px;
+}
+
+/* ----------------------------- About us section --------------------  */
+.about-us{
+  margin: 1.3rem;
+  padding: 2rem 0px;
+}
+.certificate-section{
+  width: 15rem;
+  display: flex;
+  justify-content:space-between;
+  
+}
+.certificate-section a{
+  padding-right: 1rem;
+}
+.certificate-section img{
+  width: 100% !important;
+
+}
+.about-us h2{
+  font-weight: 800;
+  font-size: 18px;
+}
+.about-us h3{
+  font-size: 16px !important;
+  font-weight: bold;
+}
+.about-us p{
+  font-size: 13px;
+  color: #777;
+}
+/* -------------------------- Footer section --------------------  */
+footer
+{
+  font-size: 13px;
+  text-align: center;
+  padding: 2rem 0;
+}
+.ft-col{
+  padding: 2rem;
+  border: 1px solid #f1eeee;
+}
+.footer-logo{
+  text-align: left;
+}
+.footer-logo img{
+  width: 7rem;
+  margin-bottom: 1rem;
+  
+}
+.footer-address{
+  text-align:left;
+}
+.quick-links{
+  display: flex;
+    justify-content: center;
+  list-style-type: disc;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color:#334
+}
+.quick-links a{
+  text-decoration: none;
+  color: #333;
+
+}
+.quick-links i{
+  font-size: 6px;
+    color: #5c5656;
+    margin: 0 20px;
+}
+h6{
+  font-size: 14px !important;
+  font-weight: 800 !important ;
+}
+.social-media-icons{
+  display: flex;
+  justify-content: center;
+}
+.social-media-icons i{
+  color: #7755A2;
+  font-size: 26px;
+}
+
+.dwnld-link {
+  text-align: center;
+}
+.dwnld-link img{
+  width: 40%;
+}
