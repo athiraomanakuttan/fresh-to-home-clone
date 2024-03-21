@@ -126,7 +126,7 @@ header{
 }
 /* Catogory section starts */
 .catogory {
-    padding-top: 12%;
+    padding-top: 11%;
     color: black;
 }
 .catogory ul{
@@ -138,9 +138,66 @@ header{
 }
 .catogory a{
     text-decoration: none;
-    color: #000;
+    color: #7755A2;
     padding: 20px;
 }
 .catogory a:hover{
 background-color: rgb(241, 237, 237);
+color: #7755A2;
 }
+.carousel-indicators {
+    bottom: 10px;
+  }
+
+  /* Offer carousel  */
+  .offer-carousel-container img{
+    border-radius: 16px
+  }
+  .offer-carousel-container
+  {
+    margin: 1.3rem;
+  }
+  .offer-content-section .container{
+    display: flex;
+    margin: 1rem auto;
+    font-size: 12px;
+    color: #666;
+  }
+  .offer-content-section .container a{
+    color: #666;
+  }
+  .offer-content-section .container a:hover{
+    color: #666;
+  }
+  .vip-customer
+  {
+    width: 40%;
+    background-image: url('./images/icons/vip.png');
+    padding-left: 3%;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: left;
+    border-right: 1px solid;
+    padding-right: 1%;
+    
+  }
+  .delivery{
+    background-image: url('./images/icons/early-delivery.png');
+    padding-left: 3%;
+    
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: left;
+    width: 40%;
+    border-right: 1px solid;
+    margin-left: 1%;
+  }
+  .express-delivery
+  {
+    background-image: url('./images/icons/download-app.webp');
+    padding-left: 3%;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: left;
+    margin-left: 1%;
+  }
