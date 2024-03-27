@@ -409,7 +409,7 @@ footer
 {
   font-size: 13px;
   text-align: center;
-  padding: 2rem 0;
+  padding-top: 2rem ;
 }
 .ft-col{
   padding: 2rem;
@@ -466,10 +466,12 @@ h6{
 }
 .footer-section-2{
   text-align: start;
+  background: #f9f9f9;
+  width: 100%;
 }
 .footer-section-2 h3{
   font-size: 14px;
-    margin: 2rem 0;
+    padding: 2rem 0;
     color: #555;
 }
 .footer-section-2 li,.disc{
@@ -486,9 +488,15 @@ h6{
 .branchs
 {
   display: flex;
-  gap:1rem
+  gap: 4rem;
 }
-.branchs li
-{
-  display: block !important;
+.branchs ul{
+  display: flex !important;
+  flex-direction: column !important;
 }
+.credits p{
+  margin: auto;
+    padding: 1%;
+}
+
+
