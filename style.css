@@ -145,7 +145,7 @@ header{
 }
 .catogory img
 {
-  width: 12%;
+  width: 12% !importent;
     margin-right: 0;
     padding-right: 0;
     margin-top: -8px;
