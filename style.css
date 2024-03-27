@@ -140,6 +140,21 @@ header{
     text-decoration: none;
     color: #7755A2;
     padding: 20px;
+    padding-left:0;
+    font-size: 14px;
+}
+.catogory img
+{
+  width: 12%;
+    margin-right: 0;
+    padding-right: 0;
+    margin-top: -8px;
+}
+.fish{
+  width: 10%;
+}
+.chicken{
+  width: 11%;
 }
 .catogory a:hover{
 background-color: rgb(241, 237, 237);
@@ -315,6 +330,16 @@ color: #7755A2;
     font-weight: 800;
 
   }
+  del{
+    text-decoration: line-through;
+    text-decoration-color:red ;
+    font-size: 13px;
+  }
+  .text-green,.price
+  {
+    color: #3C8031;
+    font-weight: 400;
+  }
   .category-card h5{
     color: #8a8a8a;
     font-weight: normal;
@@ -438,4 +463,32 @@ h6{
 }
 .dwnld-link img{
   width: 40%;
+}
+.footer-section-2{
+  text-align: start;
+}
+.footer-section-2 h3{
+  font-size: 14px;
+    margin: 2rem 0;
+    color: #555;
+}
+.footer-section-2 li,.disc{
+  color: #777 !important;
+  font-size: 10.4px !important;
+
+}
+.heading
+{
+  font-size: 10.5px;
+    font-weight: 600;
+    color: #777;
+}
+.branchs
+{
+  display: flex;
+  gap:1rem
+}
+.branchs li
+{
+  display: block !important;
 }
