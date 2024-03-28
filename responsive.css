@@ -6,6 +6,12 @@
     .header-right button{
         width: 16%;
     }
+    .branchs
+    {
+      display: block !important;
+      justify-content: space-around;
+      text-align: center;
+    }
     
 }
 @media all  and (max-width:425px) {
@@ -14,6 +20,12 @@
     }
     .header-right button{
         width: 40%;
+    }
+    .branchs
+    {
+      display: block !important;
+      justify-content: space-around;
+      text-align: center;
     }
 }
 @media screen and (max-width:1024px) {
