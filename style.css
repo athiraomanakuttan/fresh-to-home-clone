@@ -107,6 +107,7 @@ header{
 }
 .header-right img{
     width: 74%;
+    height: auto;
 }
 .cart-menu{
     position: relative;
@@ -149,6 +150,7 @@ header{
     margin-right: 0;
     padding-right: 0;
     margin-top: -8px;
+    height: auto;
 }
 .fish{
   width: 10%;
@@ -242,6 +244,7 @@ color: #7755A2;
   }
   .card img{
     height: 12rem;
+    height: auto;
     border-radius: 10px 10px 0px 0px;
   }
   
@@ -310,6 +313,7 @@ color: #7755A2;
   }
   .shop-by-category img{
     width: 60%;
+    height: auto;
   }
   .category-card{
     padding: 1rem;
@@ -390,6 +394,7 @@ color: #7755A2;
 }
 .certificate-section img{
   width: 100% !important;
+  
 
 }
 .about-us h2{
